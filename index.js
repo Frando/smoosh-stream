@@ -6,9 +6,7 @@ function flatten (write) {
     for (var i = 0; i < batch.length; i++) {
       var content = batch[i]
       if (Array.isArray(content)) {
-        for (var j = 0; j < content.length; j++) {
-          flattened.push(content[j])
-        }
+        Array.prototype.push.apply(flattened, content)
       } else {
         flattened.push(content)
       }
