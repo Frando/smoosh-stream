@@ -1,6 +1,6 @@
 {
   "name": "smoosh-stream",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Flatten an array and pass to a callback. Useful with e.g. bulk-write-stream.",
   "main": "index.js",
   "scripts": {
