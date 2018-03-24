@@ -2,6 +2,10 @@
 
 A function to flatten an array and call a passed-in callback. Useful e.g. with [bulk-write-stream](https://github.com/mafintosh/bulk-write-stream) to accept arrays and single objects likewise and always get a flattened array in the write callback.
 
+# Installation
+
+`npm install smoosh-stream`
+
 ## Usage
 
 ``` js
